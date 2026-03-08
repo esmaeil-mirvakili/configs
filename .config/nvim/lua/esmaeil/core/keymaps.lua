@@ -33,3 +33,9 @@ keymap.set("n", "<Right>", "<Nop>", { desc = "Disable Right Arrow" })
 
 -- Reload configuration without restart nvim
 keymap.set("n", "<leader>%", ":so %<CR>")
+
+-- Navigate vim panes better
+vim.keymap.set("n", "<c-k>", ":wincmd k<CR>")
+vim.keymap.set("n", "<c-j>", ":wincmd j<CR>")
+vim.keymap.set("n", "<c-h>", ":wincmd h<CR>")
+vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
