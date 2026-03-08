@@ -1,0 +1,31 @@
+# Ignore everything at repo root
+/*
+
+# Keep these root files
+!/.gitignore
+!/README.md
+!/.zshrc
+!/.tmux.conf
+
+# Keep config directory itself
+!/.config/
+
+# Ignore everything inside config by default
+/.config/*
+
+# Re-include wanted subdirectories and their contents
+!/.config/nvim/
+!/.config/nvim/**
+
+!/.config/atuin/
+!/.config/atuin/**
+
+!/.config/bat/
+!/.config/bat/**
+
+!/.config/ghostty/
+!/.config/ghostty/**
+
+# Ignore ds_store
+.DS_Store
+**/.DS_Store
