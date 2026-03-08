@@ -5,7 +5,6 @@
 !/.gitignore
 !/README.md
 !/.zshrc
-!/.tmux.conf
 
 # Keep config directory itself
 !/.config/
@@ -13,18 +12,28 @@
 # Ignore everything inside config by default
 /.config/*
 
-# Re-include wanted subdirectories and their contents
+# nvim
 !/.config/nvim/
 !/.config/nvim/**
 
+# atuin
 !/.config/atuin/
 !/.config/atuin/**
 
+# bat
 !/.config/bat/
 !/.config/bat/**
 
+# ghostty
 !/.config/ghostty/
 !/.config/ghostty/**
+
+# tmux
+!/.tmux.conf
+!/.tmux/plugins/tpm/
+!/.tmux/plugins/tpm/**
+!/.tmux/plugins/catppuccin/
+!/.tmux/plugins/catppuccin/**
 
 # Ignore ds_store
 .DS_Store
